@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, Image, Text, View, ImageBackground, TextInput, Button, Alert, TouchableOpacity } from 'react-native';
-//Check
 
 export default class Bananas extends Component {
   constructor(props) {
@@ -80,8 +79,6 @@ header: {
   justifyContent: 'space-between',
   color: 'white',
   fontSize: 28,
- // borderColor:'#fff',
- // borderWidth: 2,
   backgroundColor: 'rgba(255,255,255,.1)',
   padding: 20,
   paddingLeft: 40,
@@ -91,7 +88,6 @@ header: {
 username: {
 
   justifyContent: 'space-between',
- // height: '50%',
   color: 'white',
   height: 60,
   fontSize: 20,
@@ -126,7 +122,7 @@ justifyContent: 'center'
 		flex: 1, 
 		alignItems: 'center',
 		padding: 60
-		//justifyContent:'center'
+		
 		
 	},
 	logo: {
