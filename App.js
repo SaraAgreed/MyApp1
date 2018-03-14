@@ -5,7 +5,7 @@ export default class Bananas extends Component {
   constructor(props) {
     super(props);
     this.state = { text: '', text1: '' };
-  }
+  } 
    _onPressButton() {
     Alert.alert('Welcome ')}
   
@@ -29,7 +29,7 @@ export default class Bananas extends Component {
 
               <Text style={styles.username}>User Name: </Text>
 
-               <TextInput
+               <TextInput  placeholder="Enter UserName"
         style={{height:30, width: 200, color: 'white', justifyContent: 'space-between', borderColor: 'white', borderWidth: 1}}
         onChangeText={(text) => this.setState({text})}
         value={this.state.text}
@@ -37,10 +37,10 @@ export default class Bananas extends Component {
       />
 
               <Text style={styles.password}>Password: </Text>
-               <TextInput 
-        style={{height:30, width: 200, color:'white',  justifyContent: 'space-between', borderColor: 'white', borderWidth: 1}}
+               <TextInput  placeholder="Enter Password"
+        style={{height:30, width: 200, color:'white', justifyContent: 'space-between', borderColor: 'white', borderWidth: 1}}
         onChangeText={(text1) => this.setState({text1})}
-       value={this.state.text1}
+       value={this.state.text1} 
       />
             </View>
     
