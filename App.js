@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, Image, Text, View, ImageBackground, TextInput, Button, Alert, TouchableOpacity } from 'react-native';
-
+//Check
 
 export default class Bananas extends Component {
   constructor(props) {
