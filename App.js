@@ -38,10 +38,14 @@ export default class Bananas extends Component {
 
               <Text style={styles.password}>Password: </Text>
                <TextInput  placeholder="Enter Password"
-        style={{height:30, width: 200, color:'white', justifyContent: 'space-between', borderColor: 'white', borderWidth: 1}}
+        style={{height:30, width: 200, color:'white',
+         justifyContent: 'space-between', borderColor: 'white', borderWidth: 1}}
+         text1={true}
+         secureTextEntry={true}
         onChangeText={(text1) => this.setState({text1})}
        value={this.state.text1} 
       />
+      
             </View>
     
     <View style={styles.check}>
